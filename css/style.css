@@ -7,8 +7,8 @@ a{
     margin-right: auto;
     margin-left: auto;
 }
-h1, h2{
-    font-family: 'Rampart One', cursive;
+h1, h2, nav{
+    font-family: 'Marcellus SC', serif;
 }
 body{
     font-size: 18px;
