@@ -107,7 +107,9 @@ header .g_navi li a{
     margin-top: 1.5rem;
 }
 .best-child img, .box-child img{
-    vertical-align: bottom;
+    width: 90%;
+    margin: 0.5rem auto 0;
+    display: block;
 }
 h2.section-title{
     margin-top: 8rem;
@@ -343,6 +345,9 @@ footer{
     #menu-btn-check:checked ~ .menu-content {
         left: 0;
     }
+    .best-child img, .box-child img {
+        margin: 0.3rem auto 0;
+    }
 
     .bestbooks-box {
         width: 90%;
@@ -374,6 +379,19 @@ footer{
         width: 28%;
         margin-top: 1rem;
     }
+    .book-title{
+        font-size: 13px;
+        padding-left: 0.5rem;
+    }
+    .detail {
+        margin: 1rem 1rem 0 auto;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+    .detail a{
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
     .explore-box {
         display: block;
     }
@@ -393,6 +411,7 @@ footer{
     }
     .sell-img, .sell-text{
         width: 100%;
+        margin: 0;
     }
     .sell-img img{
         margin-top: 2rem;
